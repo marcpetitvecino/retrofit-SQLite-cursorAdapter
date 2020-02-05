@@ -3,6 +3,8 @@ package com.example.cursoradapterv2real.Model
 public class Posts {
 
     // Aquesta classe és pels getters i setters
+    
+    // EDIT 05/02/2020 -> En kotlin es pot crear amb una linea = data class Posts(userid: Int, id: Int, title: String, body: String)
 
     private var userId: Int =  0
     private var id: Int = 0
